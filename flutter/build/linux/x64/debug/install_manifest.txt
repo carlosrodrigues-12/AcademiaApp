@@ -1,0 +1,13 @@
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/appacademia
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/carlosrodrigues/appacademia/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES

@@ -1,0 +1,12 @@
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/AcademiaAppApplication.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/repository/PessoaRepository.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/entity/Exercicio.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/controller/ExercicioController.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/responses/Response.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/controller/FichaTreinoController.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/entity/FichaTreino.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/repository/ExercicioRepository.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/swagger/SwaggerApis.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/repository/FichaTreinoRepository.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/controller/PessoaController.java
+/home/carlosrodrigues/Documents/workspace-spring-tool-suite-4-4.17.1.RELEASE/AcademiaApp/src/main/java/com/academia/entity/Pessoa.java

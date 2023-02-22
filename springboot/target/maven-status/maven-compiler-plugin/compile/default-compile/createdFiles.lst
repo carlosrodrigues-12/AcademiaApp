@@ -1,0 +1,12 @@
+com/academia/entity/Exercicio.class
+com/academia/controller/FichaTreinoController.class
+com/academia/repository/ExercicioRepository.class
+com/academia/repository/FichaTreinoRepository.class
+com/academia/AcademiaAppApplication.class
+com/academia/entity/Pessoa.class
+com/academia/entity/FichaTreino.class
+com/academia/responses/Response.class
+com/academia/controller/ExercicioController.class
+com/academia/swagger/SwaggerApis.class
+com/academia/controller/PessoaController.class
+com/academia/repository/PessoaRepository.class
