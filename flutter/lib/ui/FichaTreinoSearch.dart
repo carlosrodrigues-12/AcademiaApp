@@ -10,24 +10,40 @@ class FichaTreinoSearch extends StatefulWidget {
 
 class _FichaTreinoSearch extends State<FichaTreinoSearch> {
   final List entries = [];
+  final List pessoa = [];
+  final List exercicio = [];
+
+  Future<void> buscarPessoa(int id) async {
+    pessoa.clear();
+    var url = 'http://$host/pessoa/listar/$id';
+    var r = await Requests.get(url, port: port);
+    final body = json.decode(r.content());
+    setState(() {
+      pessoa.add(body);
+    });
+  }
+
+  Future<void> buscarExercicio(int id) async {
+    exercicio.clear();
+    var url = 'http://$host/exercicio/listar/$id';
+    var r = await Requests.get(url, port: port);
+    final body = json.decode(r.content());
+    setState(() {
+      exercicio.add(body);
+    });
+    }
 
   Future<void> buscarFichaTreino() async {
     entries.clear();
     var url = 'http://$host/fichatreino/listar';
-    // var r = await HttpRequest.request('http://10.101.100.101:port/pessoa');
     var r = await Requests.get(url, port: port);
-    // r.raiseForStatus();
-    // print(r.statusCode);
-    // r.status;
     final body = json.decode(r.content());
 
-    // ignore: avoid_print
-    // print(r.hasError);
-    // print(body);
     for (var element in body) {
-      // entries.add('${element['id']} ${element['nome']}');
       entries.add(element);
-      // print(element);
+      print(element);
+      buscarPessoa(element['pessoa']);
+      buscarExercicio(element['exercicio']);
     }
 
     setState(() {
@@ -67,9 +83,7 @@ class _FichaTreinoSearch extends State<FichaTreinoSearch> {
               child: ListTile(
                   title: Text('Ficha: ${entries[index]['id']}'),
                   subtitle: Text(
-                    '''Aluno: ${entries[index]['pessoa']}\nExercicios:
-                    ${entries[index]['exercicio']}
-                    '''
+                    '''Aluno: ${entries[index]['pessoa']}\nExercicio: ${entries[index]['exercicio']}'''
                   ),
                   trailing: const Icon(
                     Icons.arrow_forward_ios,
